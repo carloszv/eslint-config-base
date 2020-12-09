@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -17,8 +17,10 @@
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": true
+    "strictPropertyInitialization": true,
+    "jsx": "react",
+    "baseUrl": "./src"
   },
   "exclude": ["node_modules"],
-  "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"]
+  "include": ["src", "**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"]
 }

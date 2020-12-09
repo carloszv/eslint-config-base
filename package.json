@@ -1,7 +1,7 @@
 {
   "name": "@carloszv/eslint-config-base",
   "description": "ESLint configuration file containing rules for TypeScript projects",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "keywords": [
     "TypeScript",
@@ -9,12 +9,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/carloszv/eslint-config-base"
+    "url": "git+https://github.com/carloszv/eslint-config-base.git"
   },
-  "author": {
-    "name": "Carlos ZV",
-    "url": "https://github.com/carloszv"
-  },
+  "author": "Carlos ZV (https://github.com/carloszv)",
   "main": "index.js",
   "engines": {
     "node": ">= 12.4.0",
@@ -41,5 +38,12 @@
     "eslint-plugin-import": "^2.22.1",
     "prettier": "^2.1.2",
     "typescript": "^3.9.5"
+  },
+  "bugs": {
+    "url": "https://github.com/carloszv/eslint-config-base/issues"
+  },
+  "homepage": "https://github.com/carloszv/eslint-config-base#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

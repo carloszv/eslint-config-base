@@ -1,7 +1,7 @@
 {
   "name": "@carloszv/eslint-config-base",
   "description": "ESLint configuration file containing rules for TypeScript projects",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "keywords": [
     "TypeScript",

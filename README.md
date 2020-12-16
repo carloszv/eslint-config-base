@@ -1,8 +1,11 @@
 # eslint-config-base
 
-Add this package
+Be sure all your folder are inside the main "src/"
+
+Add these packages
 
     yarn add -D @carloszv/eslint-config-base
+    yarn add -D @types/react
 
 Add peer dependencies
 
